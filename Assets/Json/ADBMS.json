@@ -1,0 +1,580 @@
+{
+  "questions": [
+    {
+      "Question": "What is the primary purpose of PL/SQL?",
+      "Question Type": "Multiple Choice",
+      "Answer Options": [
+        "To create new databases",
+        "To enhance SQL capabilities",
+        "To replace SQL entirely",
+        "To manage user permissions"
+      ],
+      "Correct Answer": 1,
+      "Overall Explanation": "PL/SQL is designed to extend SQL's capabilities by adding procedural programming features, allowing for complex data manipulation and control flow.",
+      "Domain": "Understanding",
+      "Unit": "1.1"
+    },
+    {
+      "Question": "Which of the following is NOT a benefit of PL/SQL?",
+      "Question Type": "Multiple Choice",
+      "Answer Options": [
+        "Improved performance",
+        "Portability",
+        "Increased complexity",
+        "Support for modular programming"
+      ],
+      "Correct Answer": 2,
+      "Overall Explanation": "PL/SQL simplifies complex processes, and while it enhances performance and portability, it does not inherently increase complexity.",
+      "Domain": "Understanding",
+      "Unit": "1.1"
+    },
+    {
+      "Question": "What does the %TYPE attribute do in PL/SQL?",
+      "Question Type": "Multiple Choice",
+      "Answer Options": [
+        "Defines a new data type",
+        "Allows variables to inherit data types from tables",
+        "Declares a constant value",
+        "Creates a new table"
+      ],
+      "Correct Answer": 1,
+      "Overall Explanation": "The %TYPE attribute allows PL/SQL variables to adopt the data type of a column in a table, ensuring consistency and reducing errors.",
+      "Domain": "Understanding",
+      "Unit": "1.1"
+    },
+    {
+      "Question": "Which of the following is a scalar data type in PL/SQL?",
+      "Question Type": "Multiple Choice",
+      "Answer Options": [
+        "RECORD",
+        "TABLE",
+        "VARCHAR2",
+        "PL/SQL_BLOCK"
+      ],
+      "Correct Answer": 2,
+      "Overall Explanation": "Scalar data types represent single values, such as VARCHAR2, NUMBER, and DATE, whereas RECORD and TABLE are composite types.",
+      "Domain": "Understanding",
+      "Unit": "1.1"
+    },
+    {
+      "Question": "How do you declare a variable in PL/SQL?",
+      "Question Type": "Multiple Choice",
+      "Answer Options": [
+        "variable_name TYPE data_type;",
+        "TYPE data_type variable_name;",
+        "variable_name AS data_type;",
+        "DECLARE variable_name data_type;"
+      ],
+      "Correct Answer": 1,
+      "Overall Explanation": "Variables in PL/SQL are declared using the syntax variable_name TYPE data_type;, which specifies the variable name and its data type.",
+      "Domain": "Remembering",
+      "Unit": "1.1"
+    },
+    {
+      "Question": "Which statement correctly defines a constant in PL/SQL?",
+      "Question Type": "Multiple Choice",
+      "Answer Options": [
+        "CONSTANT constant_name data_type := value;",
+        "constant_name CONSTANT data_type := value;",
+        "DEFINE constant_name data_type := value;",
+        "constant_name AS data_type := value;"
+      ],
+      "Correct Answer": 1,
+      "Overall Explanation": "Constants in PL/SQL are defined using the syntax CONSTANT constant_name data_type := value;, making the value immutable throughout the program.",
+      "Domain": "Remembering",
+      "Unit": "1.1"
+    },
+    {
+      "Question": "What is the purpose of bind variables in PL/SQL?",
+      "Question Type": "Multiple Choice",
+      "Answer Options": [
+        "To store temporary results",
+        "To improve performance by reusing execution plans",
+        "To define constants",
+        "To declare data types"
+      ],
+      "Correct Answer": 1,
+      "Overall Explanation": "Bind variables allow PL/SQL to reuse execution plans, improving performance by minimizing the need for repeated parsing and execution of SQL statements.",
+      "Domain": "Understanding",
+      "Unit": "1.1"
+    },
+    {
+      "Question": "Which of the following is a valid PL/SQL block?",
+      "Question Type": "Multiple Choice",
+      "Answer Options": [
+        "BEGIN ... END;",
+        "START ... FINISH;",
+        "RUN ... STOP;",
+        "EXECUTE ... COMPLETE;"
+      ],
+      "Correct Answer": 1,
+      "Overall Explanation": "A PL/SQL block begins with BEGIN and ends with END;, encapsulating the procedural code to be executed.",
+      "Domain": "Remembering",
+      "Unit": "1.1"
+    },
+    {
+      "Question": "How do you create a sequence in PL/SQL?",
+      "Question Type": "Multiple Choice",
+      "Answer Options": [
+        "CREATE SEQUENCE sequence_name;",
+        "SEQUENCE sequence_name CREATE;",
+        "CREATE sequence_name SEQUENCE;",
+        "CREATE SEQUENCE sequence_name INCREMENT BY n;"
+      ],
+      "Correct Answer": 3,
+      "Overall Explanation": "A sequence in PL/SQL is created using the CREATE SEQUENCE statement, allowing for the generation of unique numeric values.",
+      "Domain": "Remembering",
+      "Unit": "1.1"
+    },
+    {
+      "Question": "What is the default increment value of a PL/SQL sequence?",
+      "Question Type": "Multiple Choice",
+      "Answer Options": [
+        "1",
+        "10",
+        "0",
+        "100"
+      ],
+      "Correct Answer": 1,
+      "Overall Explanation": "The default increment value for a PL/SQL sequence is 1, meaning that each call to the sequence generates the next number in the series by adding 1.",
+      "Domain": "Remembering",
+      "Unit": "1.1"
+    },
+    {
+      "Question": "What keyword is used to handle exceptions in PL/SQL?",
+      "Question Type": "Multiple Choice",
+      "Answer Options": [
+        "ERROR",
+        "EXCEPTION",
+        "CATCH",
+        "HANDLE"
+      ],
+      "Correct Answer": 1,
+      "Overall Explanation": "The EXCEPTION keyword is used in PL/SQL to define a section of code that handles errors and exceptions that may occur during execution.",
+      "Domain": "Remembering",
+      "Unit": "1.1"
+    },
+    {
+      "questions": [
+        {
+          "Question": "What is the primary purpose of PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "To create new databases",
+            "To enhance SQL capabilities",
+            "To replace SQL entirely",
+            "To manage user permissions"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "PL/SQL is designed to extend SQL's capabilities by adding procedural programming features, allowing for complex data manipulation and control flow.",
+          "Domain": "Understanding",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "Which of the following is NOT a benefit of PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "Improved performance",
+            "Portability",
+            "Increased complexity",
+            "Support for modular programming"
+          ],
+          "Correct Answer": 2,
+          "Overall Explanation": "PL/SQL simplifies complex processes, and while it enhances performance and portability, it does not inherently increase complexity.",
+          "Domain": "Understanding",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "What does the %TYPE attribute do in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "Defines a new data type",
+            "Allows variables to inherit data types from tables",
+            "Declares a constant value",
+            "Creates a new table"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "The %TYPE attribute allows PL/SQL variables to adopt the data type of a column in a table, ensuring consistency and reducing errors.",
+          "Domain": "Understanding",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "Which of the following is a scalar data type in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "RECORD",
+            "TABLE",
+            "VARCHAR2",
+            "PL/SQL_BLOCK"
+          ],
+          "Correct Answer": 2,
+          "Overall Explanation": "Scalar data types represent single values, such as VARCHAR2, NUMBER, and DATE, whereas RECORD and TABLE are composite types.",
+          "Domain": "Understanding",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "How do you declare a variable in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "variable_name TYPE data_type;",
+            "TYPE data_type variable_name;",
+            "variable_name AS data_type;",
+            "DECLARE variable_name data_type;"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "Variables in PL/SQL are declared using the syntax variable_name TYPE data_type;, which specifies the variable name and its data type.",
+          "Domain": "Remembering",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "Which statement correctly defines a constant in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "CONSTANT constant_name data_type := value;",
+            "constant_name CONSTANT data_type := value;",
+            "DEFINE constant_name data_type := value;",
+            "constant_name AS data_type := value;"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "Constants in PL/SQL are defined using the syntax CONSTANT constant_name data_type := value;, making the value immutable throughout the program.",
+          "Domain": "Remembering",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "What is the purpose of bind variables in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "To store temporary results",
+            "To improve performance by reusing execution plans",
+            "To define constants",
+            "To declare data types"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "Bind variables allow PL/SQL to reuse execution plans, improving performance by minimizing the need for repeated parsing and execution of SQL statements.",
+          "Domain": "Understanding",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "Which of the following is a valid PL/SQL block?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "BEGIN ... END;",
+            "START ... FINISH;",
+            "RUN ... STOP;",
+            "EXECUTE ... COMPLETE;"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "A PL/SQL block begins with BEGIN and ends with END;, encapsulating the procedural code to be executed.",
+          "Domain": "Remembering",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "How do you create a sequence in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "CREATE SEQUENCE sequence_name;",
+            "SEQUENCE sequence_name CREATE;",
+            "CREATE sequence_name SEQUENCE;",
+            "CREATE SEQUENCE sequence_name INCREMENT BY n;"
+          ],
+          "Correct Answer": 3,
+          "Overall Explanation": "A sequence in PL/SQL is created using the CREATE SEQUENCE statement, allowing for the generation of unique numeric values.",
+          "Domain": "Remembering",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "What is the default increment value of a PL/SQL sequence?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "1",
+            "10",
+            "0",
+            "100"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "The default increment value for a PL/SQL sequence is 1, meaning that each call to the sequence generates the next number in the series by adding 1.",
+          "Domain": "Remembering",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "What keyword is used to handle exceptions in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "ERROR",
+            "EXCEPTION",
+            "CATCH",
+            "HANDLE"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "The EXCEPTION keyword is used in PL/SQL to define a section of code that handles errors and exceptions that may occur during execution.",
+          "Domain": "Remembering",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "How do you raise a predefined exception in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "RAISE exception_name;",
+            "THROW exception_name;",
+            "SIGNAL exception_name;",
+            "RAISE predefined_exception;"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "Predefined exceptions in PL/SQL can be raised using the RAISE keyword followed by the exception name, allowing for custom error handling.",
+          "Domain": "Remembering",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "Which of the following is NOT a predefined exception in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "NO_DATA_FOUND",
+            "TOO_MANY_ROWS",
+            "INVALID_NUMBER",
+            "CUSTOM_ERROR"
+          ],
+          "Correct Answer": 3,
+          "Overall Explanation": "Predefined exceptions like NO_DATA_FOUND, TOO_MANY_ROWS, and INVALID_NUMBER are built-in, while CUSTOM_ERROR is user-defined and not predefined.",
+          "Domain": "Understanding",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "What is the purpose of the DBMS_OUTPUT.PUT_LINE procedure in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "To display output to the console",
+            "To write data to a file",
+            "To execute SQL commands",
+            "To declare variables"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "The DBMS_OUTPUT.PUT_LINE procedure is used to display output messages to the console, which is useful for debugging and logging information during execution.",
+          "Domain": "Understanding",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "Which of the following statements is used to control flow in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "IF ... THEN ... ELSE ... END IF;",
+            "LOOP ... END LOOP;",
+            "CASE ... END CASE;",
+            "All of the above"
+          ],
+          "Correct Answer": 3,
+          "Overall Explanation": "Control flow in PL/SQL can be managed using IF ... THEN, LOOP, and CASE statements, allowing for conditional and iterative processing.",
+          "Domain": "Understanding",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "What does the \"EXECUTE IMMEDIATE\" statement do in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "Executes a SQL statement dynamically",
+            "Creates a new table",
+            "Declares a variable",
+            "Raises an exception"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "The EXECUTE IMMEDIATE statement allows for the dynamic execution of SQL commands within PL/SQL, enabling greater flexibility in handling SQL operations.",
+          "Domain": "Understanding",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "Which of the following is a valid way to declare a cursor in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "CURSOR cursor_name IS SELECT * FROM table_name;",
+            "DECLARE cursor_name CURSOR SELECT * FROM table_name;",
+            "CURSOR cursor_name SELECT * FROM table_name;",
+            "CURSOR cursor_name IS SELECT * FROM table_name;"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "Cursors in PL/SQL are declared using the syntax CURSOR cursor_name IS SELECT ..., defining a pointer to the result set of the query.",
+          "Domain": "Remembering",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "How do you fetch data from a cursor in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "FETCH cursor_name INTO variable_name;",
+            "GET cursor_name INTO variable_name;",
+            "SELECT cursor_name INTO variable_name;",
+            "READ cursor_name INTO variable_name;"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "Data from a cursor is fetched using the FETCH cursor_name INTO variable_name; statement, which retrieves the next row from the cursor's result set.",
+          "Domain": "Remembering",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "What is a PL/SQL record?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "A collection of scalar values",
+            "A single data type",
+            "A table of records",
+            "A variable that can hold multiple values"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "A PL/SQL record is a composite data type that allows for the grouping of related scalar values, similar to a row in a table.",
+          "Domain": "Understanding",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "How do you define a PL/SQL record type?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "TYPE record_name IS RECORD (field_name data_type);",
+            "RECORD record_name IS TYPE (field_name data_type);",
+            "TYPE record_name AS RECORD (field_name data_type);",
+            "RECORD TYPE record_name (field_name data_type);"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "PL/SQL record types are defined using the syntax TYPE record_name IS RECORD (...), specifying the fields and their corresponding data types.",
+          "Domain": "Remembering",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "What does the \"RETURNING\" clause do in a PL/SQL insert statement?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "Returns the number of rows inserted",
+            "Returns values of specified columns",
+            "Returns the last inserted ID",
+            "Returns a success message"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "The RETURNING clause in an insert statement allows the retrieval of values from specified columns of the newly inserted row, enhancing data manipulation capabilities.",
+          "Domain": "Understanding",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "Which of the following is a valid way to declare an associative array in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "TYPE array_name IS TABLE OF data_type;",
+            "TYPE array_name IS INDEX BY PLS_INTEGER;",
+            "array_name IS TABLE OF data_type;",
+            "DECLARE array_name AS INDEX BY PLS_INTEGER;"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "Associative arrays in PL/SQL are declared using the syntax TYPE array_name IS INDEX BY PLS_INTEGER;, allowing for key-value pair storage.",
+          "Domain": "Remembering",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "What is the purpose of the \"FORALL\" statement in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "To iterate over a collection",
+            "To bulk insert data",
+            "To update multiple rows at once",
+            "To create a loop"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "The FORALL statement is used to perform bulk operations on collections, such as inserting or updating multiple rows efficiently.",
+          "Domain": "Understanding",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "How do you declare a procedure in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "PROCEDURE procedure_name IS BEGIN ... END;",
+            "CREATE PROCEDURE procedure_name AS BEGIN ... END;",
+            "DECLARE procedure_name IS BEGIN ... END;",
+            "FUNCTION procedure_name IS BEGIN ... END;"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "Procedures in PL/SQL are declared using the syntax PROCEDURE procedure_name IS BEGIN ... END;, encapsulating the procedural logic to be executed.",
+          "Domain": "Remembering",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "Which statement is used to call a procedure in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "CALL procedure_name;",
+            "EXECUTE procedure_name;",
+            "procedure_name();",
+            "RUN procedure_name;"
+          ],
+          "Correct Answer": 3,
+          "Overall Explanation": "Procedures in PL/SQL can be called simply by using their name followed by parentheses, like procedure_name();.",
+          "Domain": "Remembering",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "What is the purpose of the \"RETURN\" statement in a function?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "To exit the function",
+            "To return a value from the function",
+            "To declare a variable",
+            "To raise an exception"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "The RETURN statement in a function is used to return a value to the calling environment, indicating the result of the function's computation.",
+          "Domain": "Understanding",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "Which of the following is a valid PL/SQL function declaration?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "FUNCTION function_name RETURN data_type IS BEGIN ... END;",
+            "FUNCTION function_name(data_type) IS BEGIN ... END;",
+            "FUNCTION function_name IS BEGIN ... RETURN data_type;",
+            "FUNCTION function_name IS RETURN data_type;"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "Functions in PL/SQL are declared using the syntax FUNCTION function_name RETURN data_type IS BEGIN ... END;, specifying the return type and encapsulating the logic.",
+          "Domain": "Remembering",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "What is the purpose of the \"CASE\" statement in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "To perform iterative processing",
+            "To handle multiple conditional branches",
+            "To declare constants",
+            "To define a cursor"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "The CASE statement in PL/SQL is used to handle multiple conditional branches, allowing for cleaner and more readable code when dealing with various conditions.",
+          "Domain": "Understanding",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "How do you define a function with parameters in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "FUNCTION function_name(parameter_name data_type) IS BEGIN ... END;",
+            "FUNCTION function_name(data_type parameter_name) IS BEGIN ... END;",
+            "FUNCTION function_name AS parameter_name data_type IS BEGIN ... END;",
+            "FUNCTION function_name(parameter_name) RETURN data_type IS BEGIN ... END;"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "Functions with parameters in PL/SQL are defined using the syntax FUNCTION function_name(parameter_name data_type) IS BEGIN ... END;, allowing input values to be passed to the function.",
+          "Domain": "Remembering",
+          "Unit": "1.1"
+        },
+        {
+          "Question": "What is the difference between a stored procedure and a function in PL/SQL?",
+          "Question Type": "Multiple Choice",
+          "Answer Options": [
+            "Functions return values; procedures do not",
+            "Procedures can be called from SQL; functions cannot",
+            "Both can return values",
+            "Functions are always faster than procedures"
+          ],
+          "Correct Answer": 1,
+          "Overall Explanation": "The primary difference is that functions return a value, while procedures do not; this affects how they can be used within SQL statements.",
+          "Domain": "Understanding",
+          "Unit": "1.1"
+        }
+      ]
+    } ]  }
